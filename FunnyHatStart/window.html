@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head><title>FunnyHat! Ever thought: "That man/woman surely needs a funny hat!" Now you can!</title>
-  </head>
+<head>
+ <title>FunnyHat::Ever thought: "That man/woman surely needs a funny hat"?  Now you can add one! </title>
+</head>
   <body>
-    <div>FunnyHat: Enter the webpage where you want to add a FunnyHat</div>
+    <H2>FunnyHat: Enter the webpage where you want to add a FunnyHat
+    <input id="getPageUrl" type="text" value="input-url-here">
+    <button id="setPage" onClick="load">Load page</button> 
+    <div id="loadLocalFrame"></div>
+   </H2>
   </body>
+<script type="text/javascript" src="FunnyHatInit.js" async=""></script>
 </html>
