@@ -1,0 +1,12 @@
+{
+  "name": "FunnyHat!",
+  "description": "FunnyHat initial web-abb. With FunnyHat you can add a funny hat to a person on the web. (Ony other users of FunnyHat can see what you add though)",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["FunnyHatInit.js"]
+    }
+  },
+  "icons": { "16": "FunnyHat-16.png", "128": "FunnyHat-128.png" }
+}
